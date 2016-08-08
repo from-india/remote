@@ -21,7 +21,7 @@ CREATE TABLE Course (
 );
 
 CREATE TABLE Member (
-    user_id     INTEGER,
+    user_id     CHAR(20),
     course_id   INTEGER,
     role        INTEGER,
     PRIMARY KEY (user_id, course_id)
